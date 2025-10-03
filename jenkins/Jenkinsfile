@@ -3,9 +3,6 @@ pipeline {
     options {
         skipStagesAfterUnstable()
     }
-    tools {
-        git 'Default'
-    }
     stages {
         stage('Build') {
             steps {
